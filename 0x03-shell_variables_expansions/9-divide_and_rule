@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "$(($POWER/$DAVIDE))\n"
+printf "$(($POWER/$DIVIDE))\n"
