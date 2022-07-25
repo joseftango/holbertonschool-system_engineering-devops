@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#displaying bad luck in the 4th iteration and good luck in the 8th iteration and "BestSchool" for the other
 i=0
 while [ $i -lt 10 ]
 do
