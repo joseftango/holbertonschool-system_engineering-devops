@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #displaying bad luck in the 4th iteration and good luck in the 8th iteration and "BestSchool" for the other
 i=1
-while [ $i -lte 10 ]
+while [ $i -le 10 ]
 do
     if [ $i = 4 ]
     then
