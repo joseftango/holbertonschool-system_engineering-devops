@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-#displaying the current directory in a list format 
-for i in $(ls -l | cut -d "-" -f7)
+#displaying the current directory in a list format
+#*$(ls -l | cut -d "-" -f7)
+for i in *
 do
-    echo "$i"
+    echo "$i" | cut --delimiter=- -f2
 done
