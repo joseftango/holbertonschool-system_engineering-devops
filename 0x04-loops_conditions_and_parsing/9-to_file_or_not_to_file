@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
+#giving information about school
 file=school
-
 if [ -e $file ]
 then
     echo "$file file exists"
