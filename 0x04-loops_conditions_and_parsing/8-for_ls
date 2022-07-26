@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #displaying the current directory in a list format 
-#ls -l  | cut -d "-" -f7
 for i in $(ls -l | cut -d "-" -f7)
 do
     echo "$i"
