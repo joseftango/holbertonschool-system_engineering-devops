@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#giving information about school
+#giving information about school file
 file=school
 if [ -e $file ]
 then
