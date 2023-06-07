@@ -1,0 +1,21 @@
+*************** networking ****************
+
+what is a network :
+- is a big part of what made computers so powerful and why the Internet exists.
+It allows machines to communicate with each other.
+
+
+
+what is a network protocol :
+- A network protocol is a set of established rules that dictate how to format,
+transmit and receive data so that computer network devices -- from servers and routers
+to endpoints -- can communicate.
+
+
+ip address :
+- Every machine on a network has a unique identifier. Just as you would address
+a letter to send in the mail, computers use the unique identifier to send data
+to specific computers on a network.
+
+
+

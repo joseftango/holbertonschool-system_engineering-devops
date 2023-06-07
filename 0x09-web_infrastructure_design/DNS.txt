@@ -1,0 +1,36 @@
+******************* Introduction to DNS ***********************
+-------------------*********************-----------------------
+
+DNS:
+DNS domain name system is, in simple words, the technology that translates human-adapted,
+text-based domain names to machine-adapted, numerical-based IP.
+
+DNS contain records :
+
+A record :
+An A record maps a domain name to the IP address (Version 4) of the computer
+hosting the domain. An A record uses a domain name to find the IP address of
+a computer connected to the internet.
+A record used for ipv4
+AAAA record used for ipv6
+
+CNAME record :
+- canonical name points a domain name/subdomain to another domain
+- directs one domain name to another domain name
+- give your servers a second name
+ex:
+gmail.com -> mail.google.com
+
+MX record :
+A DNS 'mail exchange' (MX) record directs email to a mail server.
+The MX record indicates how email messages should be routed in
+accordance with the Simple Mail Transfer Protocol (SMTP, the standard protocol for all email).
+
+mail exchanger. helps route the email to the relevant server
+- consist about list all mail servers that has mail service like gmail
+where to deliver the incoming mail
+
+TXT record :
+associate arbitrary text with a host or other name, such as human readable 
+information about a server, network, data center, or other accounting information.
+
